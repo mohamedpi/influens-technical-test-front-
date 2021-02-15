@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400&display=swap');
+
+.logo_tayara{
+    width: 200px;
+    height: 60px;
+}
+.search_class{
+    display: flex;
+    align-items: center;
+}
+.main_bar{
+    display:flex;
+    flex-direction:"row";
+    justify-content: space-between;
+
+    background: #eaeaea;
+    justify-items: center;
+    
+
+}
+input[type="submit"] {
+   
+    border: 0px solid;
+    background: #71a663;
+    color: white;
+    cursor: pointer;
+    
+    font-weight: 700;
+    font-family: 'Sarpanch', sans-serif;
+  }
+  .bar_buttons_container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
+  }
+  .bar_buttons{
+    border: 0px solid;
+    justify-items: center;
+    cursor: pointer;
+    background: #71a663;
+    color: white;
+    transition: all 300ms linear;
+    font-weight: 700;
+    margin:10px;
+    padding:10px;
+    font-family: 'Sarpanch', sans-serif;
+  }
+  
+  input[type="submit"]:hover {
+    background: #71a663;
+    color: white;
+    transition: all 300ms linear;
+   
+  }
+  
+  .search-bar {
+
+    width: 300px;
+    padding: 0px 10px 0px 10px;
+    transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    background: rgb(241, 234, 234);
+    color: black;
+   
+    cursor: pointer;
+  
+    border: 1px solid #71a663;
+    font-family: 'Sarpanch', sans-serif;
+  }
+  
+  .search-bar:focus {
+   
+    outline: none;
+    transform: skew(-5deg);
+    background: rgb(243, 240, 240);
+    margin-right: 0px;
+    border: 1px solid rgb(238, 232, 232);
+    cursor: text;
+    font-family: 'Sarpanch', sans-serif;
+    transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  }
+  
+  .search-bar:focus::placeholder {
+    color: transparent;
+    transition: all 300ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    padding: 0px;
+  }
+  
+  .search-bar::placeholder {
+    color: gray;
+    padding: 90px;
+    transition: all 300ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+    font-family: 'Sarpanch', sans-serif;
+  }
