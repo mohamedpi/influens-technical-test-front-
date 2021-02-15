@@ -13,7 +13,7 @@ function ProdcutContainer(props)
   useEffect(()=>{
       const fetchData = async ()=>{
         setIsLoading(true);
-      const result = await axios("http://localhost:5000/display_products");
+      const result = await axios("https://influensbackend.herokuapp.com/display_products");
       setData(result.data.response)
       setIsLoading(false);
     }
